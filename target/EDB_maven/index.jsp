@@ -8,8 +8,6 @@
 XsdGen gen = new XsdGen();
 ClassLoader classLoader = getClass().getClassLoader();
 File file = new File(classLoader.getResource("superfile.xml").getFile());
-boolean a = file.exists();
-System.out.println("----------" + a);
 gen.parse(file);
 File parentDict = file.getParentFile();
 File out2 = new File(parentDict, "out.xsd");
