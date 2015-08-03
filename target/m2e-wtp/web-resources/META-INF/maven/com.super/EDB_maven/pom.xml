@@ -51,11 +51,26 @@
 	<version>2.11.0</version>
 </dependency>
 
+<dependency> 
+<groupId>org.apache.cocoon.pipeline</groupId>
+ <artifactId>cocoon-pipeline</artifactId> 
+ <version>3.0.0-alpha-2</version> 
+ </dependency> 
+ <dependency>
+  <groupId>org.apache.cocoon.sax</groupId>
+   <artifactId>cocoon-sax</artifactId> 
+   <version>3.0.0-alpha-2</version>
+ </dependency> 
+
+<dependency>
+  <groupId>com.jcabi</groupId>
+  <artifactId>jcabi-xml</artifactId>
+  <version>0.16.2</version>
+</dependency>
 
   </dependencies>
   
-
-  
+ 
     <build>
     <finalName>EDB_maven</finalName>
     <plugins>
